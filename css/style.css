@@ -1,0 +1,39 @@
+/*    Reset CSS  */
+* {margin: 0;  padding: 0;}
+ol, ul, li {list-style: none;}
+img {border: 0;}
+a {outline: 0; text-decoration: none; border: none;}
+
+#lnb {
+    width:300px;
+}
+#lnb>li>a {
+    display:block; width:100%; height:50px;
+    background:#444;
+    font:bold 14px/50px 'arial'; color:#ddd;
+    box-sizing:border-box; padding-left:20px;
+}
+#lnb>li>a.on {
+    background:orange; color:#fff;
+}
+#lnb>li>ul {
+    display:none;
+}
+#lnb>li>ul>li>a {
+    display:block; width:100%; height:40px;
+    background:#bbb;
+    font:14px/40px 'arial'; color:#444;
+    box-sizing:border-box; padding-left:30px;
+}
+#lnb>li>ul>li>a.on {
+    background:royalblue; color:#fff;
+}
+#lnb>li>ul>li>ul {
+    display:none;
+}
+#lnb>li>ul>li>ul>li>a {
+    display:block; width:100%; height:40px;
+    background:lightblue;
+    font:14px/40px 'arial'; color:#fff;
+    box-sizing:border-box; padding-left:40px;
+}
